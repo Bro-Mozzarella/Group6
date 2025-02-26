@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: inline-block;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+#photo {
+    max-width: 70%;
+    height: auto;
+    transition: opacity 0.5s ease;
+    position: relative;
+    left: 270px;
+}
+.photo2 {
+    transition: opacity 0.5s ease;
+    position: relative;
+    left: 300px;
+}
+#homeButton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 1300px;
+    left: 570px;
+}
